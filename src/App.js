@@ -1,11 +1,15 @@
-import './App.css';
+import './Styles/App.css';
+import Dager from './Pages/Dager';
 
 function App() {
   return (
-    <div className="App">
-      <h1>App</h1>
-      <h2>App 2</h2>
-    </div>
+    <>
+      <div className="App">
+
+        <Dager />
+
+      </div>
+    </>
   );
 }
 

@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #222;
-  --secondary-color: #39473d;
+  --primary-color: #051b27;
+  --secondary-color: #030514;
   --text-color: #e0e0e0;
   --primary-fonts: "Poppins", sans-serif;
 }
@@ -22,8 +22,8 @@
 }
 
 body {
+  overflow: hidden;
   margin: 0;
-  background-color: var(--primary-color);
   color: var(--text-color);
   font-family: var(--primary-fonts);
   font-weight: 100;

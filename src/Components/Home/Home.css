@@ -1,0 +1,58 @@
+#Home {
+    padding: 80px 0;
+
+}
+
+.Home-Welcoming {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+.Home-Welcoming-Description {
+    width: 600px;
+    min-width: 300px;
+
+    text-indent: 10px;
+    text-align: justify;
+
+    animation: init-text 1.5s;
+}
+.Home-Welcoming-Description p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Home-Welcoming-Img {
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 300px;
+
+    animation: init-img 1.5s;
+}   
+
+.Icon {
+    margin: 0 12px;
+}
+
+@keyframes init-img {
+    from {
+        transform: translateX(50vw);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0vw);
+        opacity: 1;
+    }
+}
+@keyframes init-text {
+    from {
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0vw);
+        opacity: 1;
+    }
+}
