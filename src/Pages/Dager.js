@@ -1,15 +1,17 @@
 import Header from '../Components/Header/Header'
 import Home from '../Components/Home/Home'
-import Background from '../Components/Background/Background';
+import Projects from '../Components/Projects/Projects';
 
 import './Dagar.css'
 
 function Dager() {
   return (
     <>
-        <Background/>
         <Header />
-        <div className='Main'><Home /></div>
+        <div className='Main'>
+          <Home />
+          <Projects />
+        </div>
 
     </>
   );

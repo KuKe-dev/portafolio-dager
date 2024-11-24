@@ -1,9 +1,0 @@
-.Background {
-    position: absolute;
-    background-image: url("../../Assets/Img/Pepino.png");
-    background-size: 200px;
-    background-color: var(--secondary-color);
-    width: 100vw;
-    height: 10000vh;
-    z-index: -1;
-}
