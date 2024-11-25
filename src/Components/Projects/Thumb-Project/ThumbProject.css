@@ -1,0 +1,26 @@
+.ThumbProject {
+    position: relative;
+    max-width: 350px;
+    min-width: 150px;
+    background-color: rgb(59, 55, 77);
+    padding: 20px;
+    border-radius: 20px;
+}
+.ThumbProject-Img {
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+    object-fit:cover;
+    object-position: 0 0%;
+    aspect-ratio: 16/9;
+}
+.ThumbProject-Button {
+    position: absolute;
+    width: 100%;
+    box-sizing:content-box;
+    aspect-ratio: 16/9;
+    z-index: 1;
+}
+.ThumbProject:hover {
+    
+}

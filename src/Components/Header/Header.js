@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
 return(
     <header className="Header">
-        <h1 className="Header-Logo">Dot Dager</h1>
+        <h1 className="Header-Logo">KuKe-Dev</h1>
         <aside className="Header-Buttons">
             <a href="#Home" className="Button">Home</a>
             <a href="/" className="Button">About</a>

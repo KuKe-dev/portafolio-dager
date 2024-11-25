@@ -10,8 +10,22 @@ function Dager() {
         <Header />
         <div className='Main'>
           <Home />
-          <Projects />
         </div>
+          <Projects />
+
+
+
+        
+        <div>a</div>
+        <div>a</div>
+        <div>a</div>
+        <div>a</div>
+        <div>a</div>
+        <div>a</div>
+        <div>a</div>
+        <div>a</div>
+        <div>a</div>
+        <div>a</div>
 
     </>
   );

@@ -1,3 +1,14 @@
+.Projects {
+    margin: 100px 150px 0 ;
+
+    animation: aparecer linear both;
+    animation-timeline: view(block 130% 33%);
+
+    background-color: rgba(255, 255, 255, 0.048);
+    padding: 40px 60px;
+    border-radius: 30px;
+}
+
 .Projects svg {
     display: inline-block;
     box-sizing: border-box;
@@ -6,10 +17,25 @@
 .Projects-Tittle {
     display: inline-block;
     font-size: 2.3em;
-    margin: 100px 0 0;
+    margin:0 0 50px;
     margin-left: 20px;
 }
 
-.Projects {
-    
+@keyframes aparecer {
+    0% {
+        scale: 0.8;
+        opacity: 0;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.Projects-Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    justify-items: center;
 }
