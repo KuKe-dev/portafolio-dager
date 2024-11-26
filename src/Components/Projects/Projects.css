@@ -1,4 +1,4 @@
-.Projects {
+#Projects {
     margin: 100px 150px 0 ;
 
     animation: aparecer linear both;
@@ -9,7 +9,7 @@
     border-radius: 30px;
 }
 
-.Projects svg {
+#Projects svg {
     display: inline-block;
     box-sizing: border-box;
 

@@ -20,7 +20,9 @@
   font-weight: 700;
   font-style: normal;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   margin: 0;
