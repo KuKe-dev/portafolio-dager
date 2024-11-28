@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css"
-import kukeimg from '../../Assets/Img/kukeimg.jpg'
+import KuKe from '../../Assets/Img/KuKeimg.png'
 
 import GitHubIcon from "../../Assets/Icons/GitHubIcon";
 import MailIcon from "../../Assets/Icons/MailIcon";
@@ -26,7 +26,7 @@ return(
                 
             </div>
 
-            <img className="Home-Welcoming-Img" src={kukeimg} alt="A"></img>
+            <img className="Home-Welcoming-Img" src={KuKe} alt="A"></img>
 
         </div>
         

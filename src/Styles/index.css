@@ -30,7 +30,6 @@ body {
   font-family: var(--primary-fonts);
   font-weight: 100;
 
-  background-image: url("../Assets/Img/Background.png");
   background-color: var(--secondary-color);
-  width: 100vw;
+  background-size: 100vw;
 }

@@ -1,8 +1,8 @@
 #Projects {
-    margin: 100px 150px 0 ;
+    margin: 200px 150px 0 ;
 
     animation: aparecer linear both;
-    animation-timeline: view(block 130% 33%);
+    animation-timeline: view(block 150% 25%);
 
     background-color: rgba(255, 255, 255, 0.048);
     padding: 40px 60px;

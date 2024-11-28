@@ -10,7 +10,7 @@
     padding: 0 7%;
     background-color: var(--primary-color);
 
-    animation: init 1s;
+    animation: init .4s;
     z-index: 1;
 }
 .Header-Buttons {
